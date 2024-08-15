@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+nav {
+    align-items: center;
+    margin: 20px;
+}
+
+ul {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: end;
+    background-color: transparent;
+    display: flex;
+}
+
+li {
+    margin: 10px;
+    float: left;
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+}
+
+.btn3 {
+    padding: 10px 15px;
+    background-color: black;
+    color: whitesmoke;
+    border: 0;
+    outline: 0;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.btn3:hover {
+    box-shadow: 0 0 50px black;
+}
+
+.logo h4 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 200px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+}
+
+.banner h3 {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: serif;
+    top: 30%;
+    left: 40%;
+}
+
+.banner h5 {
+    position: absolute;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: serif;
+    top: 35%;
+    left: 30%;
+}
+.banner h6 {
+    position: absolute;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: serif;
+    top: 53%;
+    left: 28%;
+    color: white; 
+    -webkit-text-stroke: 2px black;
+}
+.banner p {
+    position: absolute;
+    font-family: serif;
+    top: 70%;
+    left: 28%;
+}
+.designer {
+    position: absolute;
+    width: 290px;
+    z-index: 2;
+    filter: grayscale(1);
+    left: 40%;
+    bottom: 0px;
+}
+.btn1 {
+    padding: 8px 12px;
+    border: 1px solid black;
+    outline: 0;
+    background-color: black;
+    color: white;
+    z-index: 4;
+    position: absolute;
+    font-family: serif;
+    top: 85%;
+    left: 38%;
+}
+.btn2 {
+    padding: 8px 12px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    color: black;
+    z-index: 4;
+    position: absolute;
+    font-family: serif;
+    top: 85%;
+    left: 55%;
+}
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
